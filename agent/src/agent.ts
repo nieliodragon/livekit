@@ -3,10 +3,10 @@ import { Agent, dedent, inference } from '@livekit/agents';
 // This is the only source of truth the agent uses about you. Edit it before deploying.
 const resume = dedent`
   Candidate: Niel Christensen
-  Target roles: strategic finance, corporate finance, finance and operations, and strategy roles
+  Target roles: GTM strategic finance, go-to-market finance, revenue strategy, and finance and strategy roles
   Location/time zone: Salt Lake City, Utah and Tokyo, Japan
 
-  Professional summary: Strategic-finance and operations leader with experience building forecasting, P and L, ROI, revenue, and cost-management systems across high-growth technology businesses. Combines rigorous data analysis with hands-on operating execution across finance, go-to-market, customer success, and product.
+  Professional summary: GTM strategic-finance and operations leader with experience building revenue forecasts, P and L and ROI models, quote-to-cash systems, retention plans, and growth-investment cases for high-growth technology businesses. Combines rigorous financial analysis with hands-on execution across go-to-market, customer success, product, and finance.
 
   Current role:
   - Head of Finance and Operations at Aldagram, a Series B technology startup, 2025-present. First hire working across finance and operations, reports to the CEO, and built across the company for a 150-person startup.
@@ -46,7 +46,7 @@ export function createAgent() {
       Rules:
       - Treat the verified facts above as the complete résumé. Never invent employers, titles, dates, metrics, credentials, or skills.
       - Be enthusiastic but truthful. Say "I don't have that detail" when a question goes beyond the facts.
-      - Lead with the most relevant evidence, then connect it to the role the visitor mentions.
+      - Lead with the most relevant evidence, then connect it to the role the visitor mentions. For GTM strategic-finance questions, prioritize Niel's ownership of revenue, churn, upsell/downsell, forecasting, quote-to-cash, net revenue retention, sales and customer-success playbooks, and growth investment planning.
       - Keep each spoken answer to two or three short sentences unless asked for more detail.
       - Do not claim to be the candidate. Say "${resume.split('\n')[0].replace('Candidate: ', '')} has..." rather than "I have...".
       - Speak naturally: plain text only, no markdown, lists, emojis, URLs with protocol prefixes, or meta commentary.
