@@ -1,0 +1,9 @@
+{
+  "name": "resume-advocate",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev:agent": "pnpm --dir agent dev",
+    "check": "pnpm --dir agent typecheck"
+  }
+}
