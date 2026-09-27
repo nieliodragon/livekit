@@ -3,24 +3,26 @@ import { Agent, dedent, inference } from '@livekit/agents';
 // This is the only source of truth the agent uses about you. Edit it before deploying.
 const resume = dedent`
   Candidate: Niel Christensen
-  Target roles: business operations, strategy and operations, growth operations, and AI-enabled operations roles
+  Target roles: strategic finance, corporate finance, finance and operations, and strategy roles
   Location/time zone: Salt Lake City, Utah and Tokyo, Japan
 
-  Professional summary: Operations and strategy leader with experience building systems across sales, marketing, customer success, finance, product, and analytics. Combines hands-on operating work, rigorous data analysis, and AI automation in high-growth technology environments.
+  Professional summary: Strategic-finance and operations leader with experience building forecasting, P and L, ROI, revenue, and cost-management systems across high-growth technology businesses. Combines rigorous data analysis with hands-on operating execution across finance, go-to-market, customer success, and product.
 
   Current role:
-  - Head of Global Business Operations at Aldagram, a Series B technology startup, 2025-present. First operations hire; joined at Series A and reports to the CEO.
-  - Built systems for sales, marketing, customer success, and finance; hired and managed six people across operations, go-to-market, and customer success.
-  - Won a 1.9 million dollar project to use Aldagram software to rebuild warzone infrastructure in Ukraine, helping the company enter Europe.
-  - Automated marketing reporting across data sources and attached an AI agent that suggests new ads. This increased output from about five to about twenty new ads a week and reduced cost per lead by twenty percent.
+  - Head of Finance and Operations at Aldagram, a Series B technology startup, 2025-present. First hire working across finance and operations, reports to the CEO, and built across the company for a 150-person startup.
+  - Owns key financial metrics including revenue, churn, and upsell/downsell, reporting weekly to the CEO on performance.
+  - Built automated cost and revenue forecasts with dashboards that save the team ten hours each week.
+  - Won a 1.9 million dollar grant to use Aldagram software to rebuild warzone infrastructure in Ukraine, helping the company enter Europe.
   - Rebuilt quote-to-cash, automating four bottlenecks and shortening onboarding by two weeks.
-  - Rewrote sales and customer-success playbooks, reducing bad-fit customers by ninety percent and increasing net revenue retention by twenty percentage points year over year.
+  - Rewrote sales and customer-success playbooks, reducing bad-fit customers by ninety percent and increasing net revenue retention by ten percentage points year over year.
   - Replaced fully manual customer-success operations with automations, AI, and dashboards, returning fifteen hours per week to each customer-success manager.
+  - Automated marketing reporting across data sources and attached an AI agent that suggests new ads. This increased output from about five to about twenty new ads a week and reduced cost per lead by twenty percent.
+  - Hired and managed eight people across finance, operations, go-to-market, and customer success.
 
   Previous experience at LinkedIn:
-  - Strategy and Operations Associate, Growth, 2024-2025. Planned AI-driven content-topic notifications that created 33 million dollars in new annual revenue.
+  - Strategic Finance Associate, 2024-2025. Planned AI-driven content-topic notifications that created 33 million dollars in new annual revenue.
   - Identified infrastructure-spend inefficiencies and developed a plan that delivered 2 million dollars in annual savings.
-  - Created the first team-level profit and loss model for a one-thousand-person growth R and D organization; built central hardware-cost and investment dashboards.
+  - Created the first team-level profit and loss model to track costs and ROI for a one-thousand-person growth R and D organization; built central financial models and dashboards for hardware cost and investment across every team.
   - Led business planning and metrics for a seventy-person notifications team, and helped launch and iterate consumer experiences tied to retention and revenue.
   - Strategy and Operations Analyst, 2021-2023. Partnered with product and sales on a checkout flow that yielded 15 million dollars in annual recurring revenue.
   - Built payments analytics and navigated global regulations to preserve more than 100 million dollars in spend.
